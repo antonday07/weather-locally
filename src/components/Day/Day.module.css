@@ -1,0 +1,99 @@
+.day {
+    width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-align: center;
+  }
+  .day:hover {
+    background: #eaeaea;
+  }
+  .title {
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .temperature {
+  }
+  
+
+  /* Detail Day */
+
+.Detail {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #f4f6fd;
+  padding: 20px;
+  border-radius: 7px;
+}  
+.Detail__Forecast {
+
+}  
+.Detail__Time {
+  font-size: 18px;
+  font-weight: 600;
+}  
+.Detail__Temp {
+  display: flex;
+  align-items: center;
+  
+}  
+.Detail__Icon {
+  margin-right: 15px;
+  padding: 10px;
+  
+}  
+.Detail__Degree {
+  font-size: 30px;
+  font-weight: 500;
+}  
+.Detail__Des {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}  
+.Detail__Wind {
+
+}
+.Detail__Wind span {
+  margin-left: 5px;
+  display: inline-block;
+}
+.Detail__Wind ion-icon {
+  margin-left: 10px;
+}
+.Detail__Info {
+  flex-basis: 40%;
+}  
+.Detail__Period {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.Detail__Rainy {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Detail__Cloud {
+  text-align: center;
+}
+.Detail__RainChance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Detail__Box {
+  display: flex;
+  align-items: center;
+}
+.Detail__Box span {
+  margin-left: 5px;
+  display: inline-block;
+}
