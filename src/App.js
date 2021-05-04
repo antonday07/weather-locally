@@ -116,9 +116,9 @@ const App =() => {
     <Router>
       <div className="App">
         <h1 className="Title">Forecast in next 7 days weather</h1>
-        <Link to="/" className="Logo">Weather Locally</Link>
+        <Link to="/weather-locally" className="Logo">Weather Locally</Link>
         <Switch>
-          <Route path='/' exact >
+          <Route path='/weather-locally' exact >
             <Days forecast={dailyForecast}/>
           </Route>
           <Route 
